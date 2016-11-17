@@ -4,9 +4,6 @@ Das ist ja 1 toller Gemerator vong Tecmik her! Das nuss ich gleich mahl ausprobi
 ## Demo
 [https://greatestview.de/1generator/](https://greatestview.de/1generator/)
 
-## Usage
-Simply use the link above. If you want to personalize your letter, you can simply download this project and run it from your hard drive or upload it to a server.
-
 ## License
 [GNU General Public License v3](http://www.gnu.org/licenses/gpl-3.0.html) or later
 Copyright (c) 2016, Kim-Christian Meyer
