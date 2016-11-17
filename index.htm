@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de-DE" class="no-js">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+  <!--
+    Das ist ja 1 toller Gemerator fom Tecmik her! Das nuss ich gleich mahl ausprobierem!
+
+    @author      Kim-Christian Meyer
+    @copyright   2016 Kim-Christian Meyer
+    @license     GPL-3.0+
+  -->
+
+  <title>1generator</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
+  <style>
+    * + * {
+      margin-top: 1em !important;
+    }
+
+    body {
+      max-width: 550px;
+      padding: 1em 20px;
+      margin: 0 auto;
+
+      font-family: -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Roboto,
+                    Oxygen-Sans,
+                    Ubuntu,
+                    Cantarell,
+                    "Helvetica Neue",
+                    sans-serif;
+    }
+
+    textarea,
+    button {
+      padding: 0.6em 0.8em;
+      border-radius: 10px;
+      font-size: 100%;
+      line-height: 1.3em;
+      box-sizing: border-box;
+      -webkit-appearance: none;
+    }
+
+    button {
+      border: 0;
+      cursor: pointer;
+      color: black;
+      background: -moz-linear-gradient(74deg, rgba(13,255,0,1) 0%, rgba(255,255,0,1) 50%, rgba(255,0,0,1) 100%); /* ff3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,0,0,1)), color-stop(50%, rgba(255,255,0,1)), color-stop(100%, rgba(13,255,0,1))); /* safari4+,chrome */
+      background: -webkit-linear-gradient(74deg, rgba(13,255,0,1) 0%, rgba(255,255,0,1) 50%, rgba(255,0,0,1) 100%); /* safari5.1+,chrome10+ */
+      background: -o-linear-gradient(74deg, rgba(13,255,0,1) 0%, rgba(255,255,0,1) 50%, rgba(255,0,0,1) 100%); /* opera 11.10+ */
+      background: -ms-linear-gradient(74deg, rgba(13,255,0,1) 0%, rgba(255,255,0,1) 50%, rgba(255,0,0,1) 100%); /* ie10+ */
+      background: linear-gradient(16deg, rgba(13,255,0,1) 0%, rgba(255,255,0,1) 50%, rgba(255,0,0,1) 100%); /* w3c */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#0DFF00',GradientType=0 ); /* ie6-9 */
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .by-line {
+      font-size: 0.38em;
+      font-weight: normal;
+      font-style: italic;
+      color: #333;
+    }
+
+    .translation-textarea {
+      width: 100%;
+      min-height: 8em;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>1generator <span class="by-line">by <a class="by-line-link" href="https://greatestview.de/was-ist-das-fuer-1-generator">greatestview.de</a></span></h1>
+  <form>
+    <textarea id="input" class="translation-textarea translation-textarea-in">Manche Menschen sind wie eine Blume in der Wüste und verharren dort ein Leben lang und warten bis sie von richtigen Menschen gegossen werden ehe sie sich entfalten.
+    </textarea>
+    <textarea id="output" class="translation-textarea translation-textarea-out"></textarea>
+    <button id="translate" class="translation-button" type="submit">Übernsezen mit Random vong Zufalln her</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
